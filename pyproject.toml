@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testproject"
+version = "0.1.0"
+description = ""
+authors = ["winter_x64 <75623356+winter-x64@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chromadb = "^0.4.8"
+flask = "^2.3.3"
+langchain = "^0.0.279"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

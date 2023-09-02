@@ -1,0 +1,36 @@
+<!-- Extends base/base.html -->
+{% extends 'base/base.html' %}
+
+<!-- Block title -->
+{% block title %} Upload PDF {% endblock title %}
+
+<!-- body -->
+{% block body %}
+
+<div class="container">
+    <div class="card border-dark mb-3" style="max-width: 80%">
+        <div class="card-body">
+            <h5 class="card-title">upload - PDF</h5>
+            <form>
+                <div class="input-group">
+                    <input
+                        type="file"
+                        class="form-control"
+                        id="inputGroupFile04"
+                        aria-describedby="inputGroupFileAddon04"
+                        aria-label="Upload"
+                    />
+                    <button
+                        class="btn btn-outline-dark"
+                        type="submit"
+                        id="inputGroupFileAddon04"
+                    >
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
