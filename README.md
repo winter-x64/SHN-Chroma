@@ -2,7 +2,7 @@
 
 
 
-# Project Name
+# myHelper
 Long Description about project. This project do that. This project is awesome...
 
 ## Team members
