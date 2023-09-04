@@ -3,7 +3,7 @@
 
 
 # myHelper
-Long Description about project. This project do that. This project is awesome...
+A versatile web application designed to simplify the process of querying information from text and PDF documents using the Chroma database. It provides a user-friendly interface for users to input text or upload PDF files and ask queries. The application then utilizes the power of the Chroma database to retrieve accurate and relevant answers.
 
 ## Team members
 1. [Akhil B Xavier](https://github.com/winter-x64)
